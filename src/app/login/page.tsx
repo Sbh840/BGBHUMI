@@ -29,7 +29,7 @@ export default function LoginPage() {
     await new Promise(resolve => setTimeout(resolve, 800));
 
     // MOCK LOGIN VALIDATION
-    if (userId === "Id1.Bhattacharjee75" && password === "B@1975") {
+    if (userId === "bhattacharjee1980" && password === "B@1980") {
       localStorage.setItem('khata_admin_auth', 'true');
       toast({
         title: "Login Successful",
