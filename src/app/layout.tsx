@@ -6,6 +6,9 @@ import { FirebaseClientProvider } from '@/firebase/client-provider';
 export const metadata: Metadata = {
   title: 'banglarbhumigov.in | Land & Plot Information Portal',
   description: 'Search Khatian and Plot information with AI-powered terminology explanations.',
+  icons: {
+    icon: '/faviconV2.png',
+  },
 };
 
 export default function RootLayout({
