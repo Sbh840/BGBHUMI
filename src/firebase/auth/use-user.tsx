@@ -13,7 +13,7 @@ export function useUser() {
       if (isAuth) {
         setUser({
           uid: 'mock-admin-id',
-          email: 'Id1.Bhattacharjee75@khataquest.admin',
+          email: 'admin@banglarbhumigov.in',
           displayName: 'Administrative Officer'
         });
       } else {

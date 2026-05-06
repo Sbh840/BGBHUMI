@@ -1,4 +1,4 @@
-# **App Name**: KhataQuest
+# **App Name**: banglarbhumigov.in
 
 ## Core Features:
 

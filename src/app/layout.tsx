@@ -4,7 +4,7 @@ import './globals.css';
 import { FirebaseClientProvider } from '@/firebase/client-provider';
 
 export const metadata: Metadata = {
-  title: 'KhataQuest | Land & Plot Information Portal',
+  title: 'banglarbhumigov.in | Land & Plot Information Portal',
   description: 'Search Khatian and Plot information with AI-powered terminology explanations.',
 };
 

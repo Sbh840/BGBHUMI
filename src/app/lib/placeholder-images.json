@@ -3,13 +3,13 @@
   "placeholderImages": [
     {
       "id": "site-header",
-      "description": "KhataQuest Portal Header",
+      "description": "banglarbhumigov.in Portal Header",
       "imageUrl": "/Screenshot 2025-08-21 171256 - Copy.png",
       "imageHint": "land portal"
     },
     {
       "id": "site-footer",
-      "description": "KhataQuest Portal Footer Banner",
+      "description": "banglarbhumigov.in Portal Footer Banner",
       "imageUrl": "/Untitled design (6).jpg",
       "imageHint": "government footer"
     }

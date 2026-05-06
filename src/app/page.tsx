@@ -18,7 +18,7 @@ import { Badge } from "@/components/ui/badge";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { useUser } from '@/firebase';
 
-export default function KhataQuest() {
+export default function BanglaBhumiGov() {
   const router = useRouter();
   const { user, loading } = useUser();
   
@@ -144,7 +144,7 @@ export default function KhataQuest() {
         <div className="w-full relative h-[80px] md:h-[130px]">
           <Image 
             src={headerImage?.imageUrl || "/Screenshot 2025-08-21 171256 - Copy.png"} 
-            alt="KhataQuest Header"
+            alt="banglarbhumigov.in Header"
             fill 
             className="object-contain object-center px-0"
             priority
@@ -553,7 +553,7 @@ export default function KhataQuest() {
         <div className="w-full relative h-[300px] md:h-[600px]">
           <Image 
             src={footerImage?.imageUrl || "/Untitled design (6).jpg"} 
-            alt="KhataQuest Footer Banner"
+            alt="banglarbhumigov.in Footer Banner"
             fill 
             className="object-contain object-center px-0"
             data-ai-hint="government footer"
