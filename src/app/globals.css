@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 218 20% 96%;
+    --foreground: 218 50% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 218 50% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 218 50% 10%;
+    --primary: 217 75% 45%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 213 23% 90%;
+    --secondary-foreground: 217 75% 20%;
+    --muted: 213 23% 90%;
+    --muted-foreground: 218 10% 40%;
+    --accent: 37 73% 46%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 218 20% 85%;
+    --input: 218 20% 85%;
+    --ring: 217 75% 45%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 218 50% 5%;
+    --foreground: 210 40% 98%;
+    --card: 218 50% 5%;
+    --card-foreground: 210 40% 98%;
+    --popover: 218 50% 5%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217 75% 45%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 218 30% 15%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 218 30% 15%;
+    --muted-foreground: 218 10% 65%;
+    --accent: 37 73% 46%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 218 30% 15%;
+    --input: 218 30% 15%;
+    --ring: 217 75% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body;
+  }
+}
+
+.captcha-font {
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 4px;
+  background-image: linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%, #eee), linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%, #eee);
+  background-size: 10px 10px;
+  background-position: 0 0, 5px 5px;
+}

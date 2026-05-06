@@ -1,0 +1,31 @@
+
+{
+  "entities": {
+    "AdminProfile": {
+      "title": "Admin Profile",
+      "description": "Profile information for the administrative user.",
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "The unique identifier for the user."
+        },
+        "role": {
+          "type": "string",
+          "enum": ["admin"],
+          "description": "The role assigned to the user."
+        }
+      },
+      "required": ["userId", "role"]
+    }
+  },
+  "auth": {
+    "providers": ["password"]
+  },
+  "firestore": {
+    "/admins/{userId}": {
+      "schema": "#/entities/AdminProfile",
+      "description": "Collection of admin users."
+    }
+  }
+}
