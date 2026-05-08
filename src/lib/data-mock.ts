@@ -573,8 +573,8 @@ export const LAND_RECORDS_DB: LandRecord[] = [
     plotCount: 1,
     jlNo: "4",
     thana: "জগদ্দল",
-    conversionStatus: "ডোবা",
-    plots: [{ plotNo: "612", classification: "ডোবা", share: "0.1250", shareArea: "0.0300", occupant: "Nil", remarks: "Nil" }]
+    conversionStatus: "বাস্তু",
+    plots: [{ plotNo: "612", classification: "বাস্তু", share: "0.1250", shareArea: "0.0300", occupant: "Nil", remarks: "Nil" }]
   },
   {
     khatianNo: "423",
@@ -585,8 +585,8 @@ export const LAND_RECORDS_DB: LandRecord[] = [
     plotCount: 1,
     jlNo: "4",
     thana: "জগদ্দল",
-    conversionStatus: "ডোবা",
-    plots: [{ plotNo: "612", classification: "ডোবা", share: "0.1250", shareArea: "0.0200", occupant: "Nil", remarks: "Nil" }]
+    conversionStatus: "বাস্তু",
+    plots: [{ plotNo: "612", classification: "বাস্তু", share: "0.1250", shareArea: "0.0200", occupant: "Nil", remarks: "Nil" }]
   },
   {
     khatianNo: "508",
@@ -597,8 +597,8 @@ export const LAND_RECORDS_DB: LandRecord[] = [
     plotCount: 1,
     jlNo: "4",
     thana: "জগদ্দল",
-    conversionStatus: "ডোবা",
-    plots: [{ plotNo: "612", classification: "ডোবা", share: "0.1250", shareArea: "0.0300", occupant: "Nil", remarks: "Nil" }]
+    conversionStatus: "বাস্তু",
+    plots: [{ plotNo: "612", classification: "বাস্তু", share: "0.1250", shareArea: "0.0300", occupant: "Nil", remarks: "Nil" }]
   },
   {
     khatianNo: "1908",
@@ -609,7 +609,7 @@ export const LAND_RECORDS_DB: LandRecord[] = [
     plotCount: 1,
     jlNo: "4",
     thana: "জগদ্দল",
-    conversionStatus: "ডোবা",
-    plots: [{ plotNo: "612", classification: "ডোবা", share: "0.1250", shareArea: "0.0250", occupant: "Nil", remarks: "Nil" }]
+    conversionStatus: "বাস্তু",
+    plots: [{ plotNo: "612", classification: "বাস্তু", share: "0.1250", shareArea: "0.0250", occupant: "Nil", remarks: "Nil" }]
   }
 ];
