@@ -451,7 +451,7 @@ export const LAND_RECORDS_DB: LandRecord[] = [
     plotCount: 1,
     jlNo: "4",
     thana: "জগদ্দল",
-    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    conversionStatus: "বাস্তু",
     plots: [{ plotNo: "803", classification: "বাস্তু", share: "0.0300", shareArea: "0.1209", occupant: "Nil", remarks: "Nil" }]
   },
   {
@@ -463,7 +463,7 @@ export const LAND_RECORDS_DB: LandRecord[] = [
     plotCount: 1,
     jlNo: "4",
     thana: "জগদ্দল",
-    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    conversionStatus: "বাস্তু",
     plots: [{ plotNo: "803", classification: "বাস্তু", share: "0.0300", shareArea: "0.1209", occupant: "Nil", remarks: "Nil" }]
   },
   {
@@ -475,7 +475,7 @@ export const LAND_RECORDS_DB: LandRecord[] = [
     plotCount: 1,
     jlNo: "4",
     thana: "জগদ্দল",
-    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    conversionStatus: "বাস্তু",
     plots: [{ plotNo: "803", classification: "বাস্তু", share: "0.0165", shareArea: "0.0665", occupant: "Nil", remarks: "Nil" }]
   },
   {
@@ -487,7 +487,7 @@ export const LAND_RECORDS_DB: LandRecord[] = [
     plotCount: 1,
     jlNo: "4",
     thana: "জগদ্দল",
-    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    conversionStatus: "বাস্তু",
     plots: [{ plotNo: "803", classification: "বাস্তু", share: "0.0299", shareArea: "0.1167", occupant: "Nil", remarks: "Nil" }]
   },
   {
@@ -499,7 +499,7 @@ export const LAND_RECORDS_DB: LandRecord[] = [
     plotCount: 1,
     jlNo: "4",
     thana: "জগদ্দল",
-    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    conversionStatus: "বাস্তু",
     plots: [{ plotNo: "803", classification: "বাস্তু", share: "0.0299", shareArea: "0.1168", occupant: "Nil", remarks: "Nil" }]
   },
   {
@@ -509,9 +509,9 @@ export const LAND_RECORDS_DB: LandRecord[] = [
     address: "নিজ",
     totalArea: "0.1167 একর",
     plotCount: 1,
-    jlNo: "4",
-    thana: "জগদ্দল",
-    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    jlNo: "18",
+    thana: "বেলুড়",
+    conversionStatus: "বাস্তু",
     plots: [{ plotNo: "803", classification: "বাস্তু", share: "0.0300", shareArea: "0.1167", occupant: "Nil", remarks: "Nil" }]
   },
   // PLOT 802 RECORDS
@@ -524,7 +524,7 @@ export const LAND_RECORDS_DB: LandRecord[] = [
     plotCount: 1,
     jlNo: "4",
     thana: "জগদ্দল",
-    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    conversionStatus: "বাস্তু",
     plots: [{ plotNo: "802", classification: "বাস্তু", share: "0.0165", shareArea: "0.0660", occupant: "Nil", remarks: "Nil" }]
   },
   {
@@ -536,7 +536,7 @@ export const LAND_RECORDS_DB: LandRecord[] = [
     plotCount: 1,
     jlNo: "4",
     thana: "জগদ্দল",
-    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    conversionStatus: "বাস্তু",
     plots: [{ plotNo: "802", classification: "বাস্তু", share: "0.0165", shareArea: "0.0660", occupant: "Nil", remarks: "Nil" }]
   },
   {
@@ -548,7 +548,7 @@ export const LAND_RECORDS_DB: LandRecord[] = [
     plotCount: 1,
     jlNo: "4",
     thana: "জগদ্দল",
-    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    conversionStatus: "বাস্তু",
     plots: [{ plotNo: "802", classification: "বাস্তু", share: "0.0330", shareArea: "0.1322", occupant: "Nil", remarks: "Nil" }]
   },
   {
@@ -560,7 +560,7 @@ export const LAND_RECORDS_DB: LandRecord[] = [
     plotCount: 1,
     jlNo: "4",
     thana: "জগদ্দল",
-    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    conversionStatus: "বাস্তু",
     plots: [{ plotNo: "802", classification: "বাস্তু", share: "0.0083", shareArea: "0.0386", occupant: "Nil", remarks: "Nil" }]
   },
   // PLOT 612 RECORDS
