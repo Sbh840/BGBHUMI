@@ -469,7 +469,7 @@ export default function BanglaBhumiGov() {
                     <TableRow className="bg-white">
                       <TableCell className="text-sm font-bold text-center border-r border-slate-200">{plotNo}</TableCell>
                       <TableCell className="text-sm font-bold text-center border-r border-slate-200">{plotSearchResults[0].plots.find(p => p.plotNo === plotNo)?.classification}</TableCell>
-                      <TableCell className="text-sm font-bold text-center border-r border-slate-200">1.06</TableCell>
+                      <TableCell className="text-sm font-bold text-center border-r border-slate-200">{plotSearchResults[0].plots.find(p => p.plotNo === plotNo)?.shareArea}</TableCell>
                       <TableCell className="text-xs font-bold text-blue-600 text-center hover:underline cursor-pointer">Click Here</TableCell>
                     </TableRow>
                   </TableBody>
