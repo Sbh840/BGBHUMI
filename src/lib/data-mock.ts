@@ -404,5 +404,139 @@ export const LAND_RECORDS_DB: LandRecord[] = [
     thana: "জগদ্দল",
     conversionStatus: "ডোবা থেকে ডাঙ্গা",
     plots: [{ plotNo: "1145", classification: "ডাঙ্গা", share: "0.0062", shareArea: "0.0130", occupant: "Nil", remarks: "Nil" }]
+  },
+  // PLOT 803 RECORDS
+  {
+    khatianNo: "1964",
+    ownerName: "তনুশ্রী রায়",
+    fatherHusbandName: "রাজু রায়",
+    address: "নিজ",
+    totalArea: "0.1209 একর",
+    plotCount: 1,
+    jlNo: "4",
+    thana: "জগদ্দল",
+    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    plots: [{ plotNo: "803", classification: "ডাঙ্গা", share: "0.0300", shareArea: "0.1209", occupant: "Nil", remarks: "Nil" }]
+  },
+  {
+    khatianNo: "1965",
+    ownerName: "রাজু রায়",
+    fatherHusbandName: "অনিল রায়",
+    address: "নিজ",
+    totalArea: "0.1209 একর",
+    plotCount: 1,
+    jlNo: "4",
+    thana: "জগদ্দল",
+    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    plots: [{ plotNo: "803", classification: "ডাঙ্গা", share: "0.0300", shareArea: "0.1209", occupant: "Nil", remarks: "Nil" }]
+  },
+  {
+    khatianNo: "1967",
+    ownerName: "মহঃ রেহান",
+    fatherHusbandName: "মহঃ ইউনুস",
+    address: "নিজ",
+    totalArea: "0.0665 একর",
+    plotCount: 1,
+    jlNo: "4",
+    thana: "জগদ্দল",
+    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    plots: [{ plotNo: "803", classification: "ডাঙ্গা", share: "0.0165", shareArea: "0.0665", occupant: "Nil", remarks: "Nil" }]
+  },
+  {
+    khatianNo: "2172",
+    ownerName: "ইতি ঘোষ",
+    fatherHusbandName: "অমিত ঘোষ",
+    address: "নিজ",
+    totalArea: "0.1167 একর",
+    plotCount: 1,
+    jlNo: "4",
+    thana: "জগদ্দল",
+    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    plots: [{ plotNo: "803", classification: "বাস্তু", share: "0.0299", shareArea: "0.1167", occupant: "Nil", remarks: "Nil" }]
+  },
+  {
+    khatianNo: "2173",
+    ownerName: "আমজেদ খান",
+    fatherHusbandName: "নেয়াজ খান",
+    address: "নিজ",
+    totalArea: "0.1168 একর",
+    plotCount: 1,
+    jlNo: "4",
+    thana: "জগদ্দল",
+    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    plots: [{ plotNo: "803", classification: "বাস্তু", share: "0.0299", shareArea: "0.1168", occupant: "Nil", remarks: "Nil" }]
+  },
+  {
+    khatianNo: "2174",
+    ownerName: "সরফরাজ খান",
+    fatherHusbandName: "মতিউল্লাহ খান",
+    address: "নিজ",
+    totalArea: "0.1167 একর",
+    plotCount: 1,
+    jlNo: "4",
+    thana: "জগদ্দল",
+    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    plots: [{ plotNo: "803", classification: "বাস্তু", share: "0.0300", shareArea: "0.1167", occupant: "Nil", remarks: "Nil" }]
+  },
+  // PLOT 802 RECORDS
+  {
+    khatianNo: "2175",
+    ownerName: "আলতাফ খান",
+    fatherHusbandName: "আসগার খান",
+    address: "নিজ",
+    totalArea: "0.0660 একর",
+    plotCount: 1,
+    jlNo: "4",
+    thana: "জগদ্দল",
+    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    plots: [{ plotNo: "802", classification: "ডাঙ্গা", share: "0.0165", shareArea: "0.0660", occupant: "Nil", remarks: "Nil" }]
+  },
+  {
+    khatianNo: "2176",
+    ownerName: "সাহিল খান",
+    fatherHusbandName: "আসগার খান",
+    address: "নিজ",
+    totalArea: "0.0660 একর",
+    plotCount: 1,
+    jlNo: "4",
+    thana: "জগদ্দল",
+    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    plots: [{ plotNo: "802", classification: "ডাঙ্গা", share: "0.0165", shareArea: "0.0660", occupant: "Nil", remarks: "Nil" }]
+  },
+  {
+    khatianNo: "2179",
+    ownerName: "হায়দার খান",
+    fatherHusbandName: "ইসমাইল খান",
+    address: "নিজ",
+    totalArea: "0.1322 একর",
+    plotCount: 1,
+    jlNo: "4",
+    thana: "জগদ্দল",
+    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    plots: [{ plotNo: "802", classification: "ডাঙ্গা", share: "0.0330", shareArea: "0.1322", occupant: "Nil", remarks: "Nil" }]
+  },
+  {
+    khatianNo: "2180",
+    ownerName: "তালাত বানু",
+    fatherHusbandName: "মহঃ আলম আজাদ",
+    address: "নিজ",
+    totalArea: "0.0386 একর",
+    plotCount: 1,
+    jlNo: "4",
+    thana: "জগদ্দল",
+    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    plots: [{ plotNo: "802", classification: "ডাঙ্গা", share: "0.0083", shareArea: "0.0386", occupant: "Nil", remarks: "Nil" }]
+  },
+  {
+    khatianNo: "2181",
+    ownerName: "মহম্মদ আলম আজাদ",
+    fatherHusbandName: "শুকুরুল্লাহ আনসারি",
+    address: "নিজ",
+    totalArea: "0.0387 একর",
+    plotCount: 1,
+    jlNo: "4",
+    thana: "জগদ্দল",
+    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    plots: [{ plotNo: "802", classification: "ডাঙ্গা", share: "0.0084", shareArea: "0.0387", occupant: "Nil", remarks: "Nil" }]
   }
 ];
