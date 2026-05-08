@@ -93,6 +93,42 @@ export const LAND_RECORDS_DB: LandRecord[] = [
     plots: [{ plotNo: "1145", classification: "ডাঙ্গা", share: "0.0190", shareArea: "0.0202", occupant: "Nil", remarks: "Nil" }]
   },
   {
+    khatianNo: "1698",
+    ownerName: "জয়দেব মন্ডল",
+    fatherHusbandName: "ব্যক্তি",
+    address: "নিজ",
+    totalArea: "0.07 একর",
+    plotCount: 1,
+    jlNo: "4",
+    thana: "জগদ্দল",
+    conversionStatus: "বাইদ",
+    plots: [{ plotNo: "180", classification: "বাইদ", share: "0.2000", shareArea: "0.07", occupant: "বর্গাNil", remarks: "Nil" }]
+  },
+  {
+    khatianNo: "2553",
+    ownerName: "রামপ্রসাদ অধিকারী",
+    fatherHusbandName: "ব্যক্তি",
+    address: "নিজ",
+    totalArea: "0.04 একর",
+    plotCount: 1,
+    jlNo: "4",
+    thana: "জগদ্দল",
+    conversionStatus: "বাইদ",
+    plots: [{ plotNo: "180", classification: "বাইদ", share: "0.1145", shareArea: "0.04", occupant: "বর্গাNil", remarks: "Nil" }]
+  },
+  {
+    khatianNo: "2869",
+    ownerName: "লালমোহন চন্দ্র",
+    fatherHusbandName: "রাধারমন চন্দ্র",
+    address: "নিজ",
+    totalArea: "0.24 একর",
+    plotCount: 1,
+    jlNo: "4",
+    thana: "জগদ্দল",
+    conversionStatus: "বাইদ",
+    plots: [{ plotNo: "180", classification: "বাইদ", share: "0.6855", shareArea: "0.24", occupant: "বর্গাNil", remarks: "Nil" }]
+  },
+  {
     khatianNo: "2611",
     ownerName: "নেপালী সাউ",
     fatherHusbandName: "মৃত সীতারাম",
@@ -527,16 +563,53 @@ export const LAND_RECORDS_DB: LandRecord[] = [
     conversionStatus: "ডোবা থেকে ডাঙ্গা",
     plots: [{ plotNo: "802", classification: "ডাঙ্গা", share: "0.0083", shareArea: "0.0386", occupant: "Nil", remarks: "Nil" }]
   },
+  // PLOT 612 RECORDS
   {
-    khatianNo: "2181",
-    ownerName: "মহম্মদ আলম আজাদ",
-    fatherHusbandName: "শুকুরুল্লাহ আনসারি",
+    khatianNo: "300",
+    ownerName: "বঙ্কু বিহারী পাল",
+    fatherHusbandName: "কানাই লাল",
     address: "নিজ",
-    totalArea: "0.0387 একর",
+    totalArea: "0.0300 একর",
     plotCount: 1,
     jlNo: "4",
     thana: "জগদ্দল",
-    conversionStatus: "ডোবা থেকে ডাঙ্গা",
-    plots: [{ plotNo: "802", classification: "ডাঙ্গা", share: "0.0084", shareArea: "0.0387", occupant: "Nil", remarks: "Nil" }]
+    conversionStatus: "ডোবা",
+    plots: [{ plotNo: "612", classification: "ডোবা", share: "0.1250", shareArea: "0.0300", occupant: "Nil", remarks: "Nil" }]
+  },
+  {
+    khatianNo: "423",
+    ownerName: "রঞ্জিত কুমার পাল",
+    fatherHusbandName: "কানাই লাল",
+    address: "নিজ",
+    totalArea: "0.0200 একর",
+    plotCount: 1,
+    jlNo: "4",
+    thana: "জগদ্দল",
+    conversionStatus: "ডোবা",
+    plots: [{ plotNo: "612", classification: "ডোবা", share: "0.1250", shareArea: "0.0200", occupant: "Nil", remarks: "Nil" }]
+  },
+  {
+    khatianNo: "508",
+    ownerName: "সঞ্জিত কুমার পাল",
+    fatherHusbandName: "কানাই",
+    address: "নিজ",
+    totalArea: "0.0300 একর",
+    plotCount: 1,
+    jlNo: "4",
+    thana: "জগদ্দল",
+    conversionStatus: "ডোবা",
+    plots: [{ plotNo: "612", classification: "ডোবা", share: "0.1250", shareArea: "0.0300", occupant: "Nil", remarks: "Nil" }]
+  },
+  {
+    khatianNo: "1908",
+    ownerName: "রথীন নিয়োগী",
+    fatherHusbandName: "মৃত কান্তি পদ",
+    address: "নিজ",
+    totalArea: "0.0250 একর",
+    plotCount: 1,
+    jlNo: "4",
+    thana: "জগদ্দল",
+    conversionStatus: "ডোবা",
+    plots: [{ plotNo: "612", classification: "ডোবা", share: "0.1250", shareArea: "0.0250", occupant: "Nil", remarks: "Nil" }]
   }
 ];
