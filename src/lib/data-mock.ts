@@ -358,7 +358,7 @@ export const LAND_RECORDS_DB: LandRecord[] = [
     plots: [{ plotNo: "1145", classification: "ডাঙ্গা", share: "0.0165", shareArea: "0.0341", occupant: "Nil", remarks: "Nil" }]
   },
   {
-    khatianNo: "2172",
+    khatianNo: "2172-80",
     ownerName: "ইতি ঘোষ",
     fatherHusbandName: "অমিত ঘোষ",
     address: "নিজ",
@@ -600,8 +600,30 @@ export const LAND_RECORDS_DB: LandRecord[] = [
     conversionStatus: "বাস্তু",
     plots: [{ plotNo: "612", classification: "বাস্তু", share: "0.1250", shareArea: "0.0300", occupant: "Nil", remarks: "Nil" }]
   },
+  {    khatianNo: "2172",
+    ownerName: "ইতি ঘোষ",
+    fatherHusbandName: "অমিত ঘোষ",
+    address: "নিজ",
+    totalArea: "0.0422 একর",
+    plotCount: 1,
+    jlNo: "4",
+    thana: "জগদ্দল",
+    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    plots: [{ plotNo: "80", classification: "বাস্তু", share: "0.0205", shareArea: "0.0422", occupant: "Nil", remarks: "Nil" }]
+  },
   {
-    khatianNo: "1908",
+    khatianNo: "2172",
+    ownerName: "ইতি ঘোষ",
+    fatherHusbandName: "অমিত ঘোষ",
+    address: "নিজ",
+    totalArea: "0.1167 একর",
+    plotCount: 1,
+    jlNo: "4",
+    thana: "জগদ্দল",
+    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    plots: [{ plotNo: "803", classification: "বাস্তু", share: "0.0299", shareArea: "0.1167", occupant: "Nil", remarks: "Nil" }]
+  },
+  {    khatianNo: "1908",
     ownerName: "রথীন নিয়োগী",
     fatherHusbandName: "মৃত কান্তি পদ",
     address: "নিজ",
