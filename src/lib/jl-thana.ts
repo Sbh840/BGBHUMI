@@ -50,6 +50,9 @@ export const JL_THANA_LIST: JlThanaMapping[] = [
   { khatianNo: '2172', plotNo: '803', jlNo: '18', thana: 'বেলুর' },
   { khatianNo: '2173', plotNo: '803', jlNo: '18', thana: 'বেলুর' },
   { khatianNo: '2174', plotNo: '803', jlNo: '18', thana: 'বেলুর' },
+  { khatianNo: '2172', plotNo: '802', jlNo: '18', thana: 'বেলুর' },
+  { khatianNo: '2173', plotNo: '802', jlNo: '18', thana: 'বেলুর' },
+  { khatianNo: '2174', plotNo: '802', jlNo: '18', thana: 'বেলুর' },
   // Plot 802
   { khatianNo: '2175', plotNo: '802', jlNo: '18', thana: 'বেলুর' },
   { khatianNo: '2176', plotNo: '802', jlNo: '18', thana: 'বেলুর' },
@@ -71,7 +74,6 @@ export const JL_THANA_LIST: JlThanaMapping[] = [
   { khatianNo: '2553', plotNo: '180', jlNo: '4', thana: 'জগদ্দল' },
   { khatianNo: '2869', plotNo: '180', jlNo: '4', thana: 'জগদ্দল' },
   // Plot 80
-  { khatianNo: '2172', plotNo: '80', jlNo: '4', thana: 'জগদ্দল' },
 ];
 
 const buildJlThanaMap = () =>
