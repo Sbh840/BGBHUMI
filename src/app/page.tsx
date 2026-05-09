@@ -134,6 +134,13 @@ export default function BanglaBhumiGov() {
 
   if (!user) return null;
 
+  const plotTotalShareArea = plotSearchResults.length > 0
+    ? plotSearchResults.reduce((sum, record) => {
+        const plot = record.plots.find(p => p.plotNo === plotNo);
+        return sum + (plot ? parseFloat(plot.shareArea) : 0);
+      }, 0)
+    : 0;
+
   const headerImage = PlaceHolderImages.find(img => img.id === 'site-header');
   const footerImage = PlaceHolderImages.find(img => img.id === 'site-footer');
 
@@ -176,7 +183,7 @@ export default function BanglaBhumiGov() {
         <div className="max-w-6xl mx-auto px-4 text-white text-xs md:text-sm font-bold uppercase tracking-widest flex items-center justify-between">
           <div className="flex items-center gap-2">
             <LandPlot className="h-4 w-4" />
-            Khatian & Plot Information Portal
+            LAND AND LAND REFORMS AND REFUGEE RELIEF AND
           </div>
           <div className="flex items-center gap-4">
             <div className="text-[10px] bg-white/20 px-2 py-0.5 rounded border border-white/30 flex items-center gap-1">
@@ -469,7 +476,7 @@ export default function BanglaBhumiGov() {
                     <TableRow className="bg-white">
                       <TableCell className="text-sm font-bold text-center border-r border-slate-200">{plotNo}</TableCell>
                       <TableCell className="text-sm font-bold text-center border-r border-slate-200">{plotSearchResults[0].plots.find(p => p.plotNo === plotNo)?.classification}</TableCell>
-                      <TableCell className="text-sm font-bold text-center border-r border-slate-200">{plotSearchResults[0].plots.find(p => p.plotNo === plotNo)?.shareArea}</TableCell>
+                      <TableCell className="text-sm font-bold text-center border-r border-slate-200">{plotTotalShareArea > 0 ? plotTotalShareArea.toFixed(4) : plotSearchResults[0].plots.find(p => p.plotNo === plotNo)?.shareArea}</TableCell>
                       <TableCell className="text-xs font-bold text-blue-600 text-center hover:underline cursor-pointer">Click Here</TableCell>
                     </TableRow>
                   </TableBody>

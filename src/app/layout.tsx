@@ -4,7 +4,7 @@ import './globals.css';
 import { FirebaseClientProvider } from '@/firebase/client-provider';
 
 export const metadata: Metadata = {
-  title: 'banglarbhumigov.in | Land & Plot Information Portal',
+  title: 'banglarbhumigov.in | LAND AND LAND REFORMS AND REFUGEE RELIEF AND',
   description: 'Search Khatian and Plot information with AI-powered terminology explanations.',
   icons: {
     icon: '/faviconV2.png',

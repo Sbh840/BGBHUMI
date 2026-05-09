@@ -571,10 +571,10 @@ export const LAND_RECORDS_DB: LandRecord[] = [
     address: "নিজ",
     totalArea: "0.0300 একর",
     plotCount: 1,
-    jlNo: "4",
-    thana: "জগদ্দল",
-    conversionStatus: "বাস্তু",
-    plots: [{ plotNo: "612", classification: "বাস্তু", share: "0.1250", shareArea: "0.0300", occupant: "Nil", remarks: "Nil" }]
+    jlNo: "18",
+    thana: "বীজপুর",
+    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    plots: [{ plotNo: "612", classification: "ডোবা To ডাঙ্গা", share: "0.1250", shareArea: "0.0300", occupant: "Nil", remarks: "Nil" }]
   },
   {
     khatianNo: "423",
@@ -583,10 +583,10 @@ export const LAND_RECORDS_DB: LandRecord[] = [
     address: "নিজ",
     totalArea: "0.0200 একর",
     plotCount: 1,
-    jlNo: "4",
-    thana: "জগদ্দল",
-    conversionStatus: "বাস্তু",
-    plots: [{ plotNo: "612", classification: "বাস্তু", share: "0.1250", shareArea: "0.0200", occupant: "Nil", remarks: "Nil" }]
+    jlNo: "18",
+    thana: "বীজপুর",
+    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    plots: [{ plotNo: "612", classification: "ডোবা To ডাঙ্গা", share: "0.1250", shareArea: "0.0200", occupant: "Nil", remarks: "Nil" }]
   },
   {
     khatianNo: "508",
@@ -595,10 +595,94 @@ export const LAND_RECORDS_DB: LandRecord[] = [
     address: "নিজ",
     totalArea: "0.0300 একর",
     plotCount: 1,
-    jlNo: "4",
-    thana: "জগদ্দল",
-    conversionStatus: "বাস্তু",
-    plots: [{ plotNo: "612", classification: "বাস্তু", share: "0.1250", shareArea: "0.0300", occupant: "Nil", remarks: "Nil" }]
+    jlNo: "18",
+    thana: "বীজপুর",
+    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    plots: [{ plotNo: "612", classification: "ডোবা To ডাঙ্গা", share: "0.1250", shareArea: "0.0300", occupant: "Nil", remarks: "Nil" }]
+  },
+  {
+    khatianNo: "1908",
+    ownerName: "রথীন নিয়োগী",
+    fatherHusbandName: "মৃত কান্তি পদ",
+    address: "নিজ",
+    totalArea: "0.0250 একর",
+    plotCount: 1,
+    jlNo: "18",
+    thana: "বীজপুর",
+    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    plots: [{ plotNo: "612", classification: "ডোবা To ডাঙ্গা", share: "0.1250", shareArea: "0.0250", occupant: "Nil", remarks: "Nil" }]
+  },
+  {
+    khatianNo: "2283",
+    ownerName: "পুষ্প রানী পাল",
+    fatherHusbandName: "মৃত অজিত কুমার",
+    address: "নিজ",
+    totalArea: "0.0417 একর",
+    plotCount: 1,
+    jlNo: "18",
+    thana: "বীজপুর",
+    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    plots: [{ plotNo: "612", classification: "ডোবা To ডাঙ্গা", share: "0.1250", shareArea: "0.0100", occupant: "Nil", remarks: "Nil" }]
+  },
+  {
+    khatianNo: "2284",
+    ownerName: "স্নীগ্ধা পাল",
+    fatherHusbandName: "সুব্রত",
+    address: "নিজ",
+    totalArea: "0.0416 একর",
+    plotCount: 1,
+    jlNo: "18",
+    thana: "বীজপুর",
+    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    plots: [{ plotNo: "612", classification: "ডোবা To ডাঙ্গা", share: "0.1250", shareArea: "0.0100", occupant: "Nil", remarks: "Nil" }]
+  },
+  {
+    khatianNo: "2285",
+    ownerName: "অভিজিত পাল",
+    fatherHusbandName: "মৃত অজিত কুমার",
+    address: "নিজ",
+    totalArea: "0.0417 একর",
+    plotCount: 1,
+    jlNo: "18",
+    thana: "বীজপুর",
+    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    plots: [{ plotNo: "612", classification: "ডোবা To ডাঙ্গা", share: "0.1250", shareArea: "0.0100", occupant: "Nil", remarks: "Nil" }]
+  },
+  {
+    khatianNo: "2339",
+    ownerName: "শঙ্কর প্রসাদ পাল",
+    fatherHusbandName: "মৃত গোপাল চন্দ্র",
+    address: "নিজ",
+    totalArea: "0.1250 একর",
+    plotCount: 1,
+    jlNo: "18",
+    thana: "বীজপুর",
+    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    plots: [{ plotNo: "612", classification: "ডোবা To ডাঙ্গা", share: "0.1250", shareArea: "0.0250", occupant: "Nil", remarks: "Nil" }]
+  },
+  {
+    khatianNo: "2340",
+    ownerName: "স্বপন কুমার পাল",
+    fatherHusbandName: "মৃত গোপাল চন্দ্র",
+    address: "নিজ",
+    totalArea: "0.1250 একর",
+    plotCount: 1,
+    jlNo: "18",
+    thana: "বীজপুর",
+    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    plots: [{ plotNo: "612", classification: "ডোবা To ডাঙ্গা", share: "0.1250", shareArea: "0.0250", occupant: "Nil", remarks: "Nil" }]
+  },
+  {
+    khatianNo: "2367",
+    ownerName: "লাইলি পাল",
+    fatherHusbandName: "স্বপন কুমার",
+    address: "নিজ",
+    totalArea: "0.1250 একর",
+    plotCount: 1,
+    jlNo: "18",
+    thana: "বীজপুর",
+    conversionStatus: "ডোবা থেকে ডাঙ্গা",
+    plots: [{ plotNo: "612", classification: "ডোবা To ডাঙ্গা", share: "0.1250", shareArea: "0.0250", occupant: "Nil", remarks: "Nil" }]
   },
   {    khatianNo: "2172",
     ownerName: "ইতি ঘোষ",
