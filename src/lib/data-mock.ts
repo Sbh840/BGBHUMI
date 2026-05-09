@@ -661,26 +661,26 @@ export const LAND_RECORDS_DB: LandRecord[] = [
   {
     khatianNo: "800",
     ownerName: "কিশান ঘাটিক",
-    fatherHusbandName: "ব্যক্তি",
+    fatherHusbandName: "ভগন",
     address: "নিজ",
     totalArea: "0.0562 একর",
     plotCount: 1,
     jlNo: "2",
     thana: "নৈহাটী",
-    conversionStatus: "ডাঙ্গা",
-    plots: [{ plotNo: "1154", classification: "ডাঙ্গা", share: "0.4996", shareArea: "0.0562", occupant: "Nil", remarks: "Nil" }]
+    conversionStatus: "পুকুর",
+    plots: [{ plotNo: "1154", classification: "পুকুর", share: "0.4996", shareArea: "0.0562", occupant: "Nil", remarks: "Nil" }]
   },
   {
     khatianNo: "11121",
     ownerName: "ইন্দুবালা দাস",
-    fatherHusbandName: "ব্যক্তি",
+    fatherHusbandName: "গৌরাঙ্গ",
     address: "নিজ",
     totalArea: "0.0563 একর",
     plotCount: 1,
     jlNo: "2",
     thana: "নৈহাটী",
-    conversionStatus: "ডাঙ্গা",
-    plots: [{ plotNo: "1154", classification: "ডাঙ্গা", share: "0.5004", shareArea: "0.0563", occupant: "Nil", remarks: "Nil" }]
+    conversionStatus: "পুকুর",
+    plots: [{ plotNo: "1154", classification: "পুকুর", share: "0.5004", shareArea: "0.0563", occupant: "Nil", remarks: "Nil" }]
   },
   {    khatianNo: "1908",
     ownerName: "রথীন নিয়োগী",
