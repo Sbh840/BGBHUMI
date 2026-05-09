@@ -10,11 +10,13 @@ export function useUser() {
     // Mock authentication check using localStorage
     const checkAuth = () => {
       const isAuth = localStorage.getItem('khata_admin_auth') === 'true';
+      const storedAdminId = localStorage.getItem('khata_admin_id');
       if (isAuth) {
+        const adminId = storedAdminId || 'bhattacharjee1980';
         setUser({
           uid: 'mock-admin-id',
-          email: 'admin@banglarbhumigov.in',
-          displayName: 'Administrative Officer'
+          email: `${adminId}@banglarbhumigov.in`,
+          displayName: adminId
         });
       } else {
         setUser(null);

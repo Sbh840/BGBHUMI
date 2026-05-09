@@ -31,6 +31,7 @@ export default function LoginPage() {
     // MOCK LOGIN VALIDATION
     if (userId === "bhattacharjee1980" && password === "B@1980") {
       localStorage.setItem('khata_admin_auth', 'true');
+      localStorage.setItem('khata_admin_id', userId);
       toast({
         title: "Login Successful",
         description: "Welcome back to the Administrative Portal.",

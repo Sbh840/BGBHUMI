@@ -103,6 +103,7 @@ export default function BanglaBhumiGov() {
 
   const handleLogout = () => {
     localStorage.removeItem('khata_admin_auth');
+    localStorage.removeItem('khata_admin_id');
     router.push('/login');
     router.refresh();
   };
@@ -188,7 +189,7 @@ export default function BanglaBhumiGov() {
           <div className="flex items-center gap-4">
             <div className="text-[10px] bg-white/20 px-2 py-0.5 rounded border border-white/30 flex items-center gap-1">
               <User className="h-3 w-3" />
-              {user.email?.split('@')[0]}
+              {user.displayName ?? user.email?.split('@')[0]}
             </div>
             <button onClick={handleLogout} className="text-[10px] hover:underline flex items-center gap-1">
               <LogOut className="h-3 w-3" /> Logout
