@@ -496,6 +496,8 @@ export default function BanglaBhumiGov() {
                       <TableHead className="text-white font-bold text-xs text-center border-r border-white/10 uppercase py-3">খতিয়ান নং</TableHead>
                       <TableHead className="text-white font-bold text-xs text-center border-r border-white/10 uppercase py-3">রায়তের নাম</TableHead>
                       <TableHead className="text-white font-bold text-xs text-center border-r border-white/10 uppercase py-3">পিতা/স্বামী</TableHead>
+                      <TableHead className="text-white font-bold text-xs text-center border-r border-white/10 uppercase py-3">জে.এল নং</TableHead>
+                      <TableHead className="text-white font-bold text-xs text-center border-r border-white/10 uppercase py-3">থানা</TableHead>
                       <TableHead className="text-white font-bold text-xs text-center border-r border-white/10 uppercase py-3">অংশ</TableHead>
                       <TableHead className="text-white font-bold text-xs text-center border-r border-white/10 uppercase py-3">অংশ পরিমাণ(একর)</TableHead>
                       <TableHead className="text-white font-bold text-xs text-center border-r border-white/10 uppercase py-3">দখলদার</TableHead>
@@ -513,6 +515,8 @@ export default function BanglaBhumiGov() {
                             <div className="text-[10px] bg-purple-100 text-purple-700 px-1 rounded absolute bottom-0.5 right-1">ব্যাক্তি</div>
                           </TableCell>
                           <TableCell className="text-sm font-bold text-center border-r border-slate-300 py-3">{record.fatherHusbandName}</TableCell>
+                          <TableCell className="text-sm font-bold text-center border-r border-slate-300 py-3">{record.jlNo}</TableCell>
+                          <TableCell className="text-sm font-bold text-center border-r border-slate-300 py-3">{record.thana}</TableCell>
                           <TableCell className="text-sm font-bold text-center border-r border-slate-300 py-3">{plotData?.share}</TableCell>
                           <TableCell className="text-sm font-bold text-center border-r border-slate-300 py-3">{plotData?.shareArea}</TableCell>
                           <TableCell className="text-sm font-bold text-center border-r border-slate-300 py-3">{plotData?.occupant}</TableCell>
